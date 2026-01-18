@@ -59,7 +59,8 @@ body {
 .main-content {
     display: flex;
     gap: 2px;
-    min-height: calc(100vh - 180px);
+    /* min-height: calc(100vh - 180px); */
+    min-height: 0;
 }
 
 .sidebar {
@@ -90,6 +91,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     background: #f8fafc;
+    min-height: 300px;
 }
 
 #drawing-canvas {
@@ -453,6 +455,7 @@ body {
     
     .canvas-container {
         border-radius: 0 0 15px 15px;
+        min-height: 0;
     }
     
     .tool-buttons {
